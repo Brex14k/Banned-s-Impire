@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #250b6bf6 16.62%, #131313b7 85.61%);
+}
+
+.header {
+     display: flex;
+      flex-direction: row;
+      align-items: center;
+     justify-content: space-around;
+     padding: 24px;
+}
+
+.logo {
+    height: 80px;
+    border-radius: 50%;
+    
+    
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18;
+}
+
+.menu-item:hover {
+   color: rgba(235, 235, 235, 0.74);
+}
+
+.main {
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 90px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-b1-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.conteudo-b1-escrito {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white ;
+}
+
+.conteudo-b1-botao {
+    background-color: white;
+    width: 150px;
+    height: 35px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+    ;
+}
+
+.conteudo-b1-botao:hover {
+    background-color: rgba(235, 235, 235, 0.74);
+}
+
+.foto {
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.parte2 {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    color: white;
+}
+
+.conteudo2-principal {
+
+border-top: 0.4px solid #FFF2E7;
+padding-top: 30px;
+
+}
+
+.video {
+    position: absolute;
+    width: 500;
+    height: 250;
+    left: 650px;
+    top: 150px; 
+}
+
+.footer { 
+    font-family: 'Righteous', cursive;
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: #FFF2E7;
+}
